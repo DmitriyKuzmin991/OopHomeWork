@@ -1,11 +1,11 @@
-public class BottleOfWater extends Product {
-    public BottleOfWater(String name, int price) {
+public class BottleOfWine extends Product {
+    public BottleOfWine(String name, int price) {
         super(name, price);
     }
 
     @Override
     public String toString() {
-        return "BottleOfWater{" +
+        return "BottleOfWine{" +
                 "name='" + name + '\'' +
                 ", price=" + price +
                 '}';
