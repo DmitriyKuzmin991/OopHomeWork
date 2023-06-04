@@ -2,7 +2,7 @@ public class HotDrink extends Product{
     private int temperature;
     private int volume;
 
-    public HotDrink(String name, int price, int temperature, int volume) {
+    public HotDrink(String name, Long price, int temperature, int volume) {
         super(name, price);
         this.temperature = temperature;
         this.volume = volume;

@@ -1,5 +1,5 @@
 public class BottleOfWater extends Product {
-    public BottleOfWater(String name, int price) {
+    public BottleOfWater(String name, Long price) {
         super(name, price);
     }
 
